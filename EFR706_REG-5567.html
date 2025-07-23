@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>الملف التعريفي للاعب</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 40px;
+            direction: rtl;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .header div {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        .profile-card {
+            display: flex;
+            flex-direction: row-reverse; /* عكس الترتيب لجعل الصورة على اليمين */
+            background-color: #ffffff;
+            border: 2px solid #007BFF;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .profile-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 20px; /* تعديل لتتناسب مع الاتجاه */
+        }
+
+        .profile-image img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #007BFF;
+        }
+
+        .profile-info {
+            flex: 2;
+        }
+
+        .info-item {
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            الامارات العربية المتحدة<br>
+            وزارة الشباب والرياضة
+        </div>
+        <div>
+            أكاديمية العطار الرياضية<br>
+            قسم تسجيل اللاعبين
+        </div>
+    </div>
+
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="https://raw.githubusercontent.com/krar2xx2008/krar/main/23.png" alt="الصورة الشخصية">
+        </div>
+        <div class="profile-info">
+            <div class="info-item"><span class="label">1. اسم اللاعب:</span> كرار محمد ناضم</div>
+            <div class="info-item"><span class="label">2. رقم اللاعب:</span>EFR706</div>
+            <div class="info-item"><span class="label">3. رقم مكتب التسجيل:</span>586568485858</div>
+            <div class="info-item"><span class="label">4. تاريخ ميلاد اللاعب:</span>2010/02/22</div>
+            <div class="info-item"><span class="label">5. تاريخ التسجيل:</span>2022/12/09</div>
+            <div class="info-item"><span class="label">6. المحافظة:</span>دبي</div>
+            <div class="info-item"><span class="label">7. الجنسية:</span>اماراتي</div>
+            <div class="info-item"><span class="label">8. مركز اللاعب:</span>مدافع</div>
+            <div class="info-item"><span class="label">9. رقم هاتف اللاعب:</span>9647779031679+</div>
+            <div class="info-item"><span class="label">10. رقم هاتف ولي أمر اللاعب:</span>9647861877192+</div>
+            <div class="info-item"><span class="label">11. حالة الطلب:</span>ممتاز</div>
+            <div class="info-item"><span class="label">12. اسم المحيل:</span>محمد ناضم حسين</div>
+            <div class="info-item"><span class="label">13. رقم المحيل:</span>AK2011</div>
+            <div class="info-item"><span class="label">14. رقم السجل:</span> REG-5567</div>
+        </div>
+    </div>
+
+</body>
+</html>
